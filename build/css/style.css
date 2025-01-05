@@ -560,6 +560,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.fixed {
+  position: fixed;
+}
+
 .relative {
   position: relative;
 }
@@ -645,6 +649,14 @@ video {
   margin-top: 1.5rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
 .flex {
   display: flex;
 }
@@ -687,6 +699,10 @@ video {
 
 .grow {
   flex-grow: 1;
+}
+
+.scroll-mt-10 {
+  scroll-margin-top: 2.5rem;
 }
 
 .grid-cols-4 {
